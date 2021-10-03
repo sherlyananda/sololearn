@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int days = scanner.nextInt();
+		
+            
+		//your code goes here
+
+		//declare
+		int ConHou, ConMin, ConSec;
+
+		//Convert to hour
+
+		ConHou = days*24;
+		//Conver to minutes
+		ConMin = ConHou*60;
+
+		//Convert to seconds
+		ConSec = ConMin*60;
+		System.out.println(ConSec);
+		
+	}
+}
